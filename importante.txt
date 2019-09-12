@@ -1,0 +1,4 @@
+﻿O arquivo de leitura deve estar no formato Codificação UTF-8 para aceitar caracteres especiais como o "ç".
+Arquivo do diretório "in" pode ser consigurado no Notepad++ no menu Formatar\Codificação em UTF-8
+
+Definir como projeto de inicialização o projeto Application 

@@ -1,0 +1,12 @@
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\bin\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\bin\Debug\Interface.pdb
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\obj\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Interface\obj\Debug\Interface.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\bin\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\bin\Debug\Interface.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\obj\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Interface\obj\Debug\Interface.pdb

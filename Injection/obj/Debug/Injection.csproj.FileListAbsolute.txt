@@ -1,0 +1,15 @@
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Injection.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Injection.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Busines_.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Model.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Utils.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Busines_.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Interface.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Model.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\bin\Debug\Utils.pdb
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\obj\Debug\Injection.csprojAssemblyReference.cache
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\obj\Debug\Injection.csproj.CoreCompileInputs.cache
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\obj\Debug\Injection.csproj.CopyComplete
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\obj\Debug\Injection.dll
+C:\Users\Ismael Santos\Desktop\IlegraTest\IlegraSalesTest\Injection\obj\Debug\Injection.pdb

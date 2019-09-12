@@ -4,3 +4,9 @@ C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Utils\obj\Debug\U
 C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
 C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Utils\obj\Debug\Utils.dll
 C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Utils\obj\Debug\Utils.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\bin\Debug\Utils.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\bin\Debug\Utils.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\obj\Debug\Utils.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Utils\obj\Debug\Utils.pdb

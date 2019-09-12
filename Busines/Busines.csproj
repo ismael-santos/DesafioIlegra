@@ -52,6 +52,7 @@
     </Compile>
     <Compile Include="Sales.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesEstruct.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Interface\Interface.csproj">

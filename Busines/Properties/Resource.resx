@@ -123,6 +123,9 @@
   <data name="LogCountOfSalesman" xml:space="preserve">
     <value>Quantidade de vendedores no arquivo de entrada: {0}</value>
   </data>
+  <data name="LogErrorMessage" xml:space="preserve">
+    <value>Linha: ({0}) sem saparador padrão ou arquivo não é UTF-8</value>
+  </data>
   <data name="LogIdSaleMoreExpensive" xml:space="preserve">
     <value>ID da venda mais cara: {0}</value>
   </data>

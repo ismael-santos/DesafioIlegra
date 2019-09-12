@@ -1,7 +1,7 @@
-﻿using Busines_.Properties;
+﻿using Busines_;
+using Busines_.Properties;
 using Interface.Injection;
 using Mapper;
-using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,13 +11,21 @@ namespace Business
 {
     public class Sales : IServiceSales
     {
-        private List<Salesman> SalesmanList = new List<Salesman>();
-        private List<Client> ClientList = new List<Client>();
-        private List<DataSale> DataSaleList = new List<DataSale>();
+        private SalesEstruct _SalesEstruct = SalesEstruct.Instance;
 
         public void SetTypeOfData(List<string> lines)
         {
-            lines.ForEach(line => SetTypeOfDataLine(line));
+            lines.ForEach(line => 
+            {
+                try
+                {
+                    SetTypeOfDataLine(line);
+                }
+                catch
+                {
+                    _SalesEstruct.ErrorMessage = string.Format(Resource.LogErrorMessage, line);
+                }
+            });
         }
 
         private void SetTypeOfDataLine(string line)
@@ -29,30 +37,30 @@ namespace Business
             switch (typeOfData)
             {
                 case TypeOfDataEnum.Salesman:
-                    SalesmanList.Add(MapperSalesman.Instance.Map(line));
+                    _SalesEstruct.SalesmanList.Add(MapperSalesman.Instance.Map(line));
                     break;
                 case TypeOfDataEnum.Client:
-                    ClientList.Add(MapperClient.Instance.Map(line));
+                    _SalesEstruct.ClientList.Add(MapperClient.Instance.Map(line));
                     break;
                 case TypeOfDataEnum.DataSale:
-                    DataSaleList.Add(MapperDataSale.Instance.Map(line));
+                    _SalesEstruct.DataSaleList.Add(MapperDataSale.Instance.Map(line));
                     break;
             }
         }
 
         private int GetCountOfClients()
         {
-            return ClientList.Count;
+            return _SalesEstruct.ClientList.Count;
         }
 
         private int GetCountOfSalesman()
         {
-            return SalesmanList.Count;
+            return _SalesEstruct.SalesmanList.Count;
         }
 
         private string GetIdSaleMoreExpensive()
         {
-            return DataSaleList
+            return _SalesEstruct.DataSaleList
                     .OrderByDescending(x => x.Itens.Sum(y => y.Price))
                     .Select(x => x.SaleID)
                     .FirstOrDefault();
@@ -60,7 +68,7 @@ namespace Business
 
         private string GetWorstSeller()
         {
-            return DataSaleList
+            return _SalesEstruct.DataSaleList
                     .OrderBy(x => x.Itens.Sum(y => y.Price))
                     .Select(x => x.Salesman.Name)
                     .FirstOrDefault();
@@ -68,6 +76,9 @@ namespace Business
 
         public string GetSalesReport()
         {
+            if (!string.IsNullOrEmpty(_SalesEstruct.ErrorMessage))
+                return _SalesEstruct.ErrorMessage;
+
             string countOfClients = string.Format(Resource.LogCountOfClients, GetCountOfClients());
             string countOfSalesman = string.Format(Resource.LogCountOfSalesman, GetCountOfSalesman());
             string saleMoreExpensive = string.Format(Resource.LogIdSaleMoreExpensive, GetIdSaleMoreExpensive());

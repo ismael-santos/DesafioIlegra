@@ -79,7 +79,7 @@ namespace Busines_.Properties {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Linha: ({0}) sem saparador padrão ou arquivo não é UTF-8.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ERRO Linha: ({0}) sem saparador padrão ou arquivo não é UTF-8.
         /// </summary>
         internal static string LogErrorMessage {
             get {

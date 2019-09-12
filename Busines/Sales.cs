@@ -23,7 +23,7 @@ namespace Business
                 }
                 catch
                 {
-                    _SalesEstruct.ErrorMessage = string.Format(Resource.LogErrorMessage, line);
+                    SetErrorMessage(line);
                 }
             });
         }
@@ -46,6 +46,11 @@ namespace Business
                     _SalesEstruct.DataSaleList.Add(MapperDataSale.Instance.Map(line));
                     break;
             }
+        }
+
+        private void SetErrorMessage(string line)
+        {
+            _SalesEstruct.ErrorMessage.Add(string.Format(Resource.LogErrorMessage, line));
         }
 
         private int GetCountOfClients()
@@ -74,11 +79,21 @@ namespace Business
                     .FirstOrDefault();
         }
 
+        private string GetErrorReport()
+        {
+            if (_SalesEstruct.ErrorMessage.Any())
+            {
+                return _SalesEstruct.ErrorMessage
+                            .Aggregate((error, errorLine) =>
+                                string.Concat(error, Environment.NewLine, errorLine));
+
+            }
+
+            return string.Empty;
+        }
+
         public string GetSalesReport()
         {
-            if (!string.IsNullOrEmpty(_SalesEstruct.ErrorMessage))
-                return _SalesEstruct.ErrorMessage;
-
             string countOfClients = string.Format(Resource.LogCountOfClients, GetCountOfClients());
             string countOfSalesman = string.Format(Resource.LogCountOfSalesman, GetCountOfSalesman());
             string saleMoreExpensive = string.Format(Resource.LogIdSaleMoreExpensive, GetIdSaleMoreExpensive());
@@ -87,7 +102,8 @@ namespace Business
             return string.Concat(countOfClients, Environment.NewLine,
                                  countOfSalesman, Environment.NewLine,
                                  saleMoreExpensive, Environment.NewLine,
-                                 worstSeller);
+                                 worstSeller, Environment.NewLine,
+                                 GetErrorReport());
         }
     }
 }

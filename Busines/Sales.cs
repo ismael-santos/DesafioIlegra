@@ -1,5 +1,4 @@
-﻿using Busines_;
-using Busines_.Properties;
+﻿using Business.Properties;
 using Interface.Injection;
 using Mapper;
 using System;
@@ -21,9 +20,9 @@ namespace Business
                 {
                     SetTypeOfDataLine(line);
                 }
-                catch
+                catch(Exception ex)
                 {
-                    SetErrorMessage(line);
+                    SetErrorMessage(line, ex);
                 }
             });
         }
@@ -45,11 +44,17 @@ namespace Business
                 case TypeOfDataEnum.DataSale:
                     _SalesEstruct.DataSaleList.Add(MapperDataSale.Instance.Map(line));
                     break;
+                default:
+                    _SalesEstruct.ErrorMessage.Add(string.Format(Resource.LogCodeNotFound, identifier));
+                    break;
             }
         }
 
-        private void SetErrorMessage(string line)
+        private void SetErrorMessage(string line, Exception ex)
         {
+            if (ex is EnumDescriptionNotFoundException)
+                _SalesEstruct.ErrorMessage.Add(string.Format(Resource.LogCodeNotFound, ex.Message));
+            else
             _SalesEstruct.ErrorMessage.Add(string.Format(Resource.LogErrorMessage, line));
         }
 

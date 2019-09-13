@@ -1,0 +1,15 @@
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Busines_.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Busines_.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Interface.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Model.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Utils.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Interface.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Model.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\bin\Debug\Utils.pdb
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Business.csprojAssemblyReference.cache
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Busines_.Properties.Resource.resources
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Business.csproj.GenerateResource.cache
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Business.csproj.CopyComplete
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Busines_.dll
+C:\Users\Ismael Santos\Desktop\ILEGRA\IlegraSalesTest\Busines\obj\Debug\Busines_.pdb

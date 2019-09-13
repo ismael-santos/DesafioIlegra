@@ -1,7 +1,7 @@
 ﻿using Model;
 using System.Collections.Generic;
 
-namespace Busines_
+namespace Business
 {
     public class SalesEstruct
     {

@@ -45,9 +45,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Busines\Busines.csproj">
+    <ProjectReference Include="..\Busines\Business.csproj">
       <Project>{692A95BB-B4DF-4959-9362-B0D15C56FFCC}</Project>
-      <Name>Busines</Name>
+      <Name>Business</Name>
     </ProjectReference>
     <ProjectReference Include="..\Interface\Interface.csproj">
       <Project>{0EDF7C41-0019-4273-857D-3660F2F7B98D}</Project>

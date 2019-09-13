@@ -22,7 +22,8 @@ namespace Application
 
         private void CreateLog()
         {
-            IServiceSales sales = SalesInjection.Instance(GetAllLines());
+            IServiceSales sales = SalesInjection.Instance;
+            sales.SetTypeOfData(GetAllLines());
 
             File.WriteAllText(DirectoryPath.OUT_AND_FILE, sales.GetSalesReport(), Encoding.UTF8);
         }

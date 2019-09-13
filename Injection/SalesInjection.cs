@@ -8,22 +8,18 @@ namespace Injection
     {
         private Sales _Sales = new Sales();
 
-        private SalesInjection(List<string> lines)
-        {
-            SetTypeOfData(lines);
-        }
+        private SalesInjection() { }
 
-        public static SalesInjection Instance(List<string> lines) =>
-            new SalesInjection(lines);
-
-        public string GetSalesReport()
-        {
-            return _Sales.GetSalesReport();
-        }
+        public static IServiceSales Instance => new SalesInjection();
 
         public void SetTypeOfData(List<string> lines)
         {
             _Sales.SetTypeOfData(lines);
+        }
+
+        public string GetSalesReport()
+        {
+            return _Sales.GetSalesReport();
         }
     }
 }

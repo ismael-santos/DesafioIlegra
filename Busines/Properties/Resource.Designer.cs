@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Busines_.Properties {
+namespace Business.Properties {
     using System;
     
     
@@ -57,6 +57,15 @@ namespace Busines_.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ERRO Código {0} não encontrado..
+        /// </summary>
+        internal static string LogCodeNotFound {
+            get {
+                return ResourceManager.GetString("LogCodeNotFound", resourceCulture);
             }
         }
         

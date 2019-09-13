@@ -22,7 +22,7 @@ namespace Utils
                     if (field.Name == description)
                         return (T)field.GetValue(null);
             }
-            throw new ArgumentException("Not found.", nameof(description));
+            throw new EnumDescriptionNotFoundException(description);
         }
     }
 }

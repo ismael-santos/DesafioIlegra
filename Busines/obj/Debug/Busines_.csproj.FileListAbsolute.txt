@@ -1,6 +1,0 @@
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\bin\Debug\Busines_.dll
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\bin\Debug\Busines_.pdb
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\obj\Debug\Busines_.csprojAssemblyReference.cache
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\obj\Debug\Busines_.csproj.CoreCompileInputs.cache
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\obj\Debug\Busines_.dll
-C:\Users\Ismael Santos\Desktop\IlegraSalesTest\IlegraSalesTest\Busines_\obj\Debug\Busines_.pdb

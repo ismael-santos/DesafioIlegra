@@ -54,12 +54,8 @@ namespace Application
         private List<string> GetAllFiles()
         {
             DirectoryInfo dir = new DirectoryInfo(DirectoryPath.IN);
-            List<FileInfo> files = dir.GetFiles().ToList();
 
-            List<string> fileList = new List<string>();
-            files.ForEach(file => fileList.Add(file.Name));
-
-            return fileList;
+            return dir.GetFiles().Select(file => file.Name).ToList();
         }
 
         private void CreatDirectotyIfNotExists()
